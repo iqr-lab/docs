@@ -28,10 +28,10 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main'}}
         with:
-          ACCESS_TOKEN: ${{ secrets.DEPLOY_KEY }}
-          BRANCH: gh-pages
-          FOLDER: .vuepress/dist/
-          CLEAN: true
+          ssh-key: ${{ secrets.DEPLOY_KEY }}
+          branch: gh-pages
+          target-folder: .vuepress/dist/
+          clean: true
   lint:
     name: Lint
     runs-on: ubuntu-latest
