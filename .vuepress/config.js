@@ -56,8 +56,7 @@ module.exports = {
   themeConfig: {
       lastUpdated: true,
       repo: 'https://github.com/iqr-lab/IQRLabDocs',
-      editLinks: true,
-      editLinkText: 'Help us improve this page!',
+      editLinks: false,
       // logo: '/homepage.png',
       // nav: [{
       //     text: 'Dortania Guides',
