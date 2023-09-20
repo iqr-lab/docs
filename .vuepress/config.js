@@ -76,16 +76,14 @@ module.exports = {
           ]
 
       },
-      // {
-      //     title: 'Modern GPUs',
-      //     collapsable: false,
-      //     sidebarDepth: 2,
-      //     children: [
-      //         '/modern-gpus/amd-gpu',
-      //         '/modern-gpus/nvidia-gpu',
-      //         '/modern-gpus/intel-gpu',
-      //     ]
-      // },
+      {
+          title: 'Computer Vision',
+          collapsable: false,
+          sidebarDepth: 2,
+          children: [
+              '/computer-vision/intel-realsense',
+          ]
+      },
       ],
   },
   plugins: [
