@@ -1,7 +1,7 @@
 {
-  "name": "IQRLabDocs",
+  "name": "IQRLab",
   "version": "0.0.1",
-  "description": "Internal Docs for IQRLab",
+  "description": "IQRLab Website",
   "main": "index.js",
   "repository": "iqr-lab/iqr-lab.github.io/",
   "scripts": {

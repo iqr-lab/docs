@@ -3,7 +3,7 @@ const {
 } = require('../package')
 
 module.exports = {
-  title: 'IQR Lab Docs',
+  title: 'IQR Lab',
   head: [
       ['meta', {
           name: 'theme-color',
@@ -55,7 +55,7 @@ module.exports = {
 
   themeConfig: {
       lastUpdated: true,
-      repo: 'https://github.com/iqr-lab/IQRLabDocs',
+      repo: 'https://github.com/iqr-lab/iqr-lab.github.io',
       editLinks: false,
       // logo: '/homepage.png',
       // nav: [{

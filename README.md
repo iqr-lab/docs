@@ -1,3 +1,3 @@
-# IQR Lab Docs
+# IQR Lab
 
-This is a test of the docs home page.
+This is a test of the home page.
