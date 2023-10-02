@@ -109,8 +109,9 @@ module.exports = {
 module.exports = {
   themeConfig: {
     nav: [
-      { text: "Home", link: "/" },
-      { text: "Guide", link: "/guide/" },
+      { text: "Research", link: "/research/README.md" },
+      { text: "People", link: "/people/README.md" },
+      { text: "Publications", link: "/publications/README.md" },
       { text: "External", link: "https://google.com" },
     ],
   },
