@@ -15,11 +15,11 @@ To use any Intel RealSense camera with an IQRLab workstation, these specific ins
 
 As of the time of writing, kernel patching Ubuntu 22.04 (Kernel 6.32) has a few hoops that need to be jumped through.
 
-## Assumptions
+### Assumptions
 
 Familiarity with the provided [RealSense SDK Manual Linux Installation Instructions](https://github.com/IntelRealSense/librealsense/blob/development/doc/installation.md).
 
-## Install librealsense2 SDK
+### Install librealsense2 SDK
 
 1. [Install all dependencies for Ubuntu 22.04.](https://dev.intelrealsense.com/docs/compiling-librealsense-for-linux-ubuntu-guide#install-dependencies)
 2. Clone the [librealsense](https://github.com/IntelRealSense/librealsense) repo.
@@ -53,7 +53,7 @@ Familiarity with the provided [RealSense SDK Manual Linux Installation Instructi
 9. Follow the instructions for compiling and installing the binaries
    > Tip: Use `-j15` flag in `make` commands for parallel compilation
 
-## Install librealsense2 Python Wrapper
+### Install librealsense2 Python Wrapper
 
 1. There is no need to build the Python wrapper from source. Install the pre-built package with `pip`
    ```sh
