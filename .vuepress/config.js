@@ -1,7 +1,7 @@
 const { description } = require("../package");
 
 module.exports = {
-  title: "IQR Lab",
+  title: "IQR Lab Docs",
   head: [
     [
       "meta",
