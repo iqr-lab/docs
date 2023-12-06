@@ -1,14 +1,25 @@
 # Intel RealSense
 
+For installation of the `librealsense2` SDK on Ubuntu 22.04, please follow the [official documentation](https://github.com/IntelRealSense/librealsense/blob/master/doc/distribution_linux.md) with prebuilt packages. Be sure to install the `librealsense2-dev` and `sudo apt-get install librealsense2-dbg` package for development.
+
+# Firmware Updates
+
+Use the `rs-fw-update` binary installed with the librealsense2 SDK to update the firmware on the camera. For latest firmware downloads, please visit [this page](https://dev.intelrealsense.com/docs/firmware-releases) and match the firmware with your specific RealSense model.
+
+If you are starting with a new camera, it is recommended to update the firmware to the latest version before beginning development.
+
+## Intel RealSense [Deprecated Guide]
+
+<del>
 To use any Intel RealSense camera with an IQRLab workstation, these specific instructions to install the librealsense2 SDK must be followed since the camera requires a patched kernel module to function properly.
 
 As of the time of writing, kernel patching Ubuntu 22.04 (Kernel 6.32) has a few hoops that need to be jumped through.
 
-# Assumptions
+## Assumptions
 
 Familiarity with the provided [RealSense SDK Manual Linux Installation Instructions](https://github.com/IntelRealSense/librealsense/blob/development/doc/installation.md).
 
-# Install librealsense2 SDK
+## Install librealsense2 SDK
 
 1. [Install all dependencies for Ubuntu 22.04.](https://dev.intelrealsense.com/docs/compiling-librealsense-for-linux-ubuntu-guide#install-dependencies)
 2. Clone the [librealsense](https://github.com/IntelRealSense/librealsense) repo.
@@ -42,15 +53,11 @@ Familiarity with the provided [RealSense SDK Manual Linux Installation Instructi
 9. Follow the instructions for compiling and installing the binaries
    > Tip: Use `-j15` flag in `make` commands for parallel compilation
 
-# Install librealsense2 Python Wrapper
+## Install librealsense2 Python Wrapper
 
 1. There is no need to build the Python wrapper from source. Install the pre-built package with `pip`
    ```sh
    pip install pyrealsense2
    ```
 
-# Firmware Updates
-
-Use the `rs-fw-update` binary installed with the librealsense2 SDK to update the firmware on the camera. For latest firmware downloads, please visit [this page](https://dev.intelrealsense.com/docs/firmware-releases) and match the firmware with your specific RealSense model.
-
-If you are starting with a new camera, it is recommended to update the firmware to the latest version before beginning development.
+</del>
