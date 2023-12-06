@@ -1,8 +1,10 @@
 # Intel RealSense
 
+## Installation
+
 For installation of the `librealsense2` SDK on Ubuntu 22.04, please follow the [official documentation](https://github.com/IntelRealSense/librealsense/blob/master/doc/distribution_linux.md) with prebuilt packages. Be sure to install the `librealsense2-dev` and `sudo apt-get install librealsense2-dbg` package for development.
 
-# Firmware Updates
+## Firmware Updates
 
 Use the `rs-fw-update` binary installed with the librealsense2 SDK to update the firmware on the camera. For latest firmware downloads, please visit [this page](https://dev.intelrealsense.com/docs/firmware-releases) and match the firmware with your specific RealSense model.
 
