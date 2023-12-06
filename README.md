@@ -2,7 +2,9 @@
 
 This is the home of internal documentation for infrastructure of the Inquisitive Robotics Lab at Yale University. This repository is a collection of markdown files that are compiled into a static site using [VuePress](https://vuepress.vuejs.org/).
 
-## Infrastructure Specifications
+## Infrastructure Specification
+
+The following is a list of specifications for the infrastructure of the IQR Lab. This is a living document and will be updated as the lab grows. Reference this document for environment setup and development.
 
 ### Workstations
 
