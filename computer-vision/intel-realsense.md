@@ -2,7 +2,7 @@
 
 ## Installation
 
-For installation of the `librealsense2` SDK on Ubuntu 22.04, please follow the [official documentation](https://github.com/IntelRealSense/librealsense/blob/master/doc/distribution_linux.md) with prebuilt packages. Be sure to install the `librealsense2-dev` and `librealsense2-dbg` package for development.
+For installation of the `librealsense2` SDK on Ubuntu 22.04, please follow the [official documentation](https://github.com/IntelRealSense/librealsense/blob/master/doc/installation.md) for build and compilation from source.
 
 ## Firmware Updates
 
