@@ -32,7 +32,7 @@ module.exports = {
       },
     ],
   ],
-  base: "/",
+  base: "/docs/",
 
   watch: {
     $page(newPage, oldPage) {
@@ -86,19 +86,19 @@ module.exports = {
         title: "Computer Vision",
         collapsable: false,
         sidebarDepth: 2,
-        children: ["/docs/computer-vision/intel-realsense"],
+        children: ["computer-vision/intel-realsense"],
       },
       {
         title: "Vention",
         collapsable: false,
         sidebarDepth: 2,
-        children: ["/docs/vention/intro"],
+        children: ["vention/intro"],
       },
       {
         title: "Kinova",
         collapsable: false,
         sidebarDepth: 2,
-        children: ["/docs/kinova/intro"],
+        children: ["kinova/intro"],
       },
     ],
   },
