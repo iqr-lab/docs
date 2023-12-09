@@ -99,7 +99,7 @@ module.exports = {
         collapsable: true,
         sidebarDepth: 2,
         children: ["/kinova/intro"],
-      }
+      },
     ],
   },
   plugins: [
