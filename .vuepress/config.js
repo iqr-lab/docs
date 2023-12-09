@@ -63,7 +63,7 @@ module.exports = {
 
   themeConfig: {
     lastUpdated: true,
-    repo: "https://github.com/iqr-lab/iqr-lab.github.io",
+    repo: "https://github.com/iqr-lab/docs",
     editLinks: false,
     // logo: '/homepage.png',
     // nav: [{
@@ -78,25 +78,25 @@ module.exports = {
     sidebar: [
       {
         title: "Introduction",
-        collapsable: true,
+        collapsable: false,
         sidebarDepth: 2,
         children: [""],
       },
       {
         title: "Computer Vision",
-        collapsable: true,
+        collapsable: false,
         sidebarDepth: 2,
         children: ["/computer-vision/intel-realsense"],
       },
       {
         title: "Vention",
-        collapsable: true,
+        collapsable: false,
         sidebarDepth: 2,
         children: ["/vention/intro"],
       },
       {
         title: "Kinova",
-        collapsable: true,
+        collapsable: false,
         sidebarDepth: 2,
         children: ["/kinova/intro"],
       },
