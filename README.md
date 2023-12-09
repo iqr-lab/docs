@@ -34,4 +34,4 @@ The lab has 1 central camera system, with the following specifications:
 - Model Name: TBD
 - **OS: Ubuntu 22.04**
 
-### Robot System (Needs Further Annotation)
+### Robot System [Under Construction]

@@ -78,16 +78,28 @@ module.exports = {
     sidebar: [
       {
         title: "Introduction",
-        collapsable: false,
-        sidebarDepth: 1,
+        collapsable: true,
+        sidebarDepth: 2,
         children: [""],
       },
       {
         title: "Computer Vision",
-        collapsable: false,
+        collapsable: true,
         sidebarDepth: 2,
         children: ["/computer-vision/intel-realsense"],
       },
+      {
+        title: "Vention",
+        collapsable: true,
+        sidebarDepth: 2,
+        children: ["/vention/intro"],
+      },
+      {
+        title: "Kinova",
+        collapsable: true,
+        sidebarDepth: 2,
+        children: ["/kinova/intro"],
+      }
     ],
   },
   plugins: [
