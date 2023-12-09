@@ -52,10 +52,9 @@ Familiarity with the provided [RealSense SDK Manual Linux Installation Instructi
 8. Follow the instructions for compiling and installing the binaries
    > Tip: Use `-j15` flag in `make` commands for parallel compilation
 
-### Install librealsense2 Python Wrapper
+## Install librealsense2 Python Wrapper
 
 1. There is no need to build the Python wrapper from source. Install the pre-built package with `pip`
    ```sh
    pip install pyrealsense2
-   ``
    ```
