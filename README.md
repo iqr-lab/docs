@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is the home of internal documentation for infrastructure of the Inquisitive Robotics Lab at Yale University. This repository is a collection of markdown files that are compiled into a static site using [VuePress](https://vuepress.vuejs.org/).
+This is the home of internal documentation for infrastructure of the [Inquisitive Robotics Lab at Yale University](https://iqr-lab.github.io/). This repository is a collection of markdown files that are compiled into a static site using [VuePress](https://vuepress.vuejs.org/).
 
 ## Infrastructure Specification
 
