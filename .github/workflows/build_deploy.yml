@@ -35,9 +35,7 @@ jobs:
           persist-credentials: false
 
       - name: Copy pointcloud_stitching docs
-        run: |
-          cp -rf pointcloud_stitching/readme.md computer-vision/pointcloud_stitching.md
-          rm -rf pointcloud_stitching
+        run: cp -rf pointcloud_stitching/readme.md computer-vision/pointcloud_stitching.md
 
       - name: Install Dependencies
         run: bun install
