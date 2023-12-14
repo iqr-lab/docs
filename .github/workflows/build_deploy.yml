@@ -26,6 +26,17 @@ jobs:
           persist-credentials: false
           submodules: 'recursive'
 
+      - name: Checkout pointcloud_stitching Repository
+        uses: actions/checkout@v4
+        with:
+          repository: iqr-lab/pointcloud_stitching
+          path: pointcloud_stitching
+          fetch-depth: '1'
+          persist-credentials: false
+
+      - name: Copy pointcloud_stitching docs
+        run: cp -rf pointcloud_stitching/readme.md computer-vision/pointcloud_stitching.md
+
       - name: Install Dependencies
         run: bun install
 

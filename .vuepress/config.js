@@ -86,7 +86,7 @@ module.exports = {
         title: "Computer Vision",
         collapsable: false,
         sidebarDepth: 2,
-        children: ["computer-vision/intel-realsense"],
+        children: ["computer-vision/intel-realsense, computer-vision/pointcloud-stitching"],
       },
       {
         title: "Vention",
