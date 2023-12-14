@@ -87,7 +87,8 @@ module.exports = {
         collapsable: false,
         sidebarDepth: 2,
         children: [
-          "/computer-vision/intel-realsense", "/computer-vision/pointcloud-stitching",
+          "/computer-vision/intel-realsense",
+          "/computer-vision/pointcloud-stitching",
         ],
       },
       {
