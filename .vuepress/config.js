@@ -87,20 +87,20 @@ module.exports = {
         collapsable: false,
         sidebarDepth: 2,
         children: [
-          "computer-vision/intel-realsense, computer-vision/pointcloud-stitching",
+          "/computer-vision/intel-realsense, /computer-vision/pointcloud-stitching",
         ],
       },
       {
         title: "Vention",
         collapsable: false,
         sidebarDepth: 2,
-        children: ["vention/intro"],
+        children: ["/vention/intro"],
       },
       {
         title: "Kinova",
         collapsable: false,
         sidebarDepth: 2,
-        children: ["kinova/intro"],
+        children: ["/kinova/intro"],
       },
     ],
   },
