@@ -20,7 +20,23 @@ The following steps must be completed before installing the `librealsense2` SDK 
 
 ## Installation (Prebuilt Binaries)
 
-For installation of the `librealsense2` SDK on Ubuntu 22.04, please follow the [official documentation](https://github.com/IntelRealSense/librealsense/blob/master/doc/installation.md) for build and compilation from source.
+For installation of the `librealsense2` SDK on Ubuntu 22.04, please follow the [official documentation](https://github.com/IntelRealSense/librealsense/blob/master/doc/distribution_linux.md) for installation via distribution package channels.
+
+In general, the following commands should suffice.
+
+> ```sh
+> sudo mkdir -p /etc/apt/keyrings
+>
+> curl -sSf https://librealsense.intel.com/Debian/librealsense.pgp | sudo tee /etc/apt/keyrings/librealsense.pgp > /dev/null
+>
+> sudo apt-get install apt-transport-https
+>
+> echo "deb [signed-by=/etc/apt/keyrings/librealsense.pgp] https://librealsense.intel.com/Debian/apt-repo `lsb_release -cs` main" | sudo tee /etc/apt/sources.list.d/librealsense.list
+>
+> sudo apt-get update
+>
+> sudo apt-get install librealsense2-dkms librealsense2-utils librealsense2-dev
+> ```
 
 ## Installing from Source (Alternative Method)
 
@@ -28,7 +44,7 @@ Installation from source is similar to the documentation provided by Intel.
 
 ### Assumptions
 
-Familiarity with the provided [RealSense SDK Manual Linux Installation Instructions](https://github.com/IntelRealSense/librealsense/blob/development/doc/installation.md).
+Familiarity with the provided [RealSense SDK Manual Linux Installation Instructions](https://github.com/IntelRealSense/librealsense/blob/master/doc/installation.md).
 
 ### Install librealsense2 SDK
 
@@ -49,8 +65,9 @@ Familiarity with the provided [RealSense SDK Manual Linux Installation Instructi
    > Use the following build command:
    >
    > ```sh
+   > mkdir -p build && cd build
    > cmake ../ -DCMAKE_BUILD_TYPE=Release
-   > sudo make install
+   > make && sudo make install
    > ```
 6. Follow the instructions for compiling and installing the binaries
    > Tip: Use `-j15` flag in `make` commands for parallel compilation
