@@ -9,7 +9,7 @@ Lab member webpages are stored in `_members/`. Check out existing profiles for e
 ```
 ---
 name: [Full Name]
-image: images/team/[first-last].[jpg/png]
+image: images/team/[first]-[last].[jpg/png]
 role: [phd/masters/undergrad/postdoc]
 description: [Undergraduate/Graduate] Student in [Field]
 links:
@@ -49,7 +49,7 @@ If your publication has a doi, ISBN, or is on arXiv, you do not need to upload t
 - Add an entry to `_data/sources.yaml` like this:
 
 ```
-# Abstraction in data-sparse task transfer
+# Your paper title
 - id: doi:10.1016/j.artint.2021.103551
   tags:
     - Journal
@@ -59,7 +59,7 @@ If your publication has a doi, ISBN, or is on arXiv, you do not need to upload t
 
 - After you commit your changes, a GitHub action will process the doi/ISBN/arXiv info and create the citation automatically.
 - Monitor this process by going to the [GitHub Actions](https://github.com/iqr-lab/iqr-lab.github.io/actions) page and verify that there are no errors. If there is an error, you may need to add the citation manually instead.
-- You can override any field of the citation by adding it to your entry. See the (docs)[https://greene-lab.gitbook.io/lab-website-template-docs/basics/citations] for more information.
+- You can override any field of the citation by adding it to your entry. See the [docs](https://greene-lab.gitbook.io/lab-website-template-docs/basics/citations) for more information.
 
 ## Manually adding citations
 
@@ -86,7 +86,7 @@ If your publication does not have an identifier (such as a workshop paper), you 
 
 ### Tags
 
-- Your first tag should indicate the publication type: Conference/Workshop/Journal/Thesis/Book.
+- Your first tag should indicate the publication type: `[Conference/Workshop/Journal/Thesis/Book]`.
 - Next, check see if there are any pre-existing tags that are also relevant to your paper.
 - Finally, add any new tags you'd like to highlight for your paper.
 
