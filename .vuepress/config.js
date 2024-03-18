@@ -103,6 +103,12 @@ module.exports = {
         sidebarDepth: 2,
         children: ["/kinova/intro"],
       },
+      {
+        title: "Website",
+        collapsable: false,
+        sidebarDepth: 2,
+        children: ["/website/intro"],
+      },
     ],
   },
   plugins: [
