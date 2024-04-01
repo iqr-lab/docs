@@ -10,6 +10,8 @@ If you are starting with a new camera, it is recommended to update the firmware 
 
 ## Installation (Prerequisites)
 
+**Important**: Ensure that your kernel matches the versions supported by the `librealsense2-dkms` package if you are not installing from source. Please refer to the [official documentation](https://github.com/IntelRealSense/librealsense/blob/master/doc/distribution_linux.md) for more details.
+
 The following steps must be completed before installing the `librealsense2` SDK through either method.
 
 1. Reboot the system into the UEFI:
