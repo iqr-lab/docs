@@ -8,6 +8,8 @@ You can also use the GUI tool in `realsense-viewer` to update the firmware.
 
 If you are starting with a new camera, it is recommended to update the firmware to the latest version before beginning development.
 
+### As of the time of writing, the NUCs require installation from source with a backend bypass.
+
 ## Installation (Prerequisites)
 
 **Important**: Ensure that your kernel matches the versions supported by the `librealsense2-dkms` package if you are not installing from source. Please refer to the [official documentation](https://github.com/IntelRealSense/librealsense/blob/master/doc/distribution_linux.md) for more details.
@@ -59,7 +61,7 @@ Familiarity with the provided [RealSense SDK Manual Linux Installation Instructi
    ```sh
    ./scripts/setup_udev_rules.sh
    ```
-4. Build and apply patched kernel modules:
+4. Build and apply patched kernel modules (only if not using backend bypass):
    ```sh
    ./scripts/patch-realsense-ubuntu-lts-hwe.sh
    ```
@@ -68,7 +70,8 @@ Familiarity with the provided [RealSense SDK Manual Linux Installation Instructi
    >
    > ```sh
    > mkdir -p build && cd build
-   > cmake ../ -DCMAKE_BUILD_TYPE=Release
+   > cmake ../ -DCMAKE_BUILD_TYPE=Release \
+   > -DFORCE_RSUSB_BACKEND=true # if using backend bypass
    > make && sudo make install
    > ```
 6. Follow the instructions for compiling and installing the binaries
