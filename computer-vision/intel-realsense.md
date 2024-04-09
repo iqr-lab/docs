@@ -81,7 +81,7 @@ Familiarity with the provided [RealSense SDK Manual Linux Installation Instructi
    > make && sudo make install
    > ```
 6. Follow the instructions for compiling and installing the binaries
-   > Tip: Use `-j15` flag in `make` commands for parallel compilation
+   > Tip: Use `-j10` flag in `make` commands for parallel compilation
 
 ## Install librealsense2 Python Wrapper
 

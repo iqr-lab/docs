@@ -24,8 +24,14 @@ The lab has 5 workstations, each with the following specifications:
 The lab has 6 edge camera systems, with the following specifications:
 
 - Camera Model Name: Intel RealSense D455
-- Edge System Model Name: TBD
+- Edge System:
+  - Model Name: Intel NUC 13 Pro
+  - MFR: `#RNUC13ANKI7000U`
+  - Storage: Sabrent 500GB Rocket NVMe SSD
+  - RAM: 16GB 3200MHz DDR4 SODIMM 1.2V
 - **OS: Ubuntu 22.04**
+
+Please see [`/computer-vision/intel-nucs.md`](https://iqr.cs.yale.edu/docs/computer-vision/intel-nucs.html) for setup details.
 
 ### Central Camera System
 
