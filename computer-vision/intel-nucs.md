@@ -14,7 +14,7 @@ Ensure that your kernel version (`uname -r`) is supported by the `librealsense-d
 
 If not, please follow the following section on downgrading your kernel **BEFORE** installing `librealsense`.
 
-Please install `librealsense` from distribution following [`/computer-vision/intel-realsense.md`](https://iqr.cs.yale.edu/docs/computer-vision/intel-realsense.html). Note the manual installation step required for NUCs only.
+Please install `librealsense` from distribution following [Intel Realsense](https://iqr.cs.yale.edu/docs/computer-vision/intel-realsense.html). Note the manual installation step required for NUCs only.
 
 ## Kernel Downgrade
 
