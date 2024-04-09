@@ -32,7 +32,7 @@ The lab has 6 edge camera systems, with the following specifications:
 - **OS: Ubuntu 22.04**
 - **Kernel: 6.2**
 
-Please see [Intel Nucs](https://iqr.cs.yale.edu/docs/computer-vision/intel-nucs.html) for setup details.
+Please see [Intel NUC](https://iqr.cs.yale.edu/docs/computer-vision/intel-nucs.html) for setup details.
 
 ### Central Camera System
 

@@ -1,4 +1,4 @@
-# Intel NUCS
+# Intel NUC
 
 This document covers all initial setup details for each NUC edge device in the distributed pointcloud stitching system.
 
