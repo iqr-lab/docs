@@ -10,7 +10,36 @@ This document covers all initial setup details for each NUC edge device in the d
 
 ## Intel Realsense
 
+Ensure that your kernel version (`uname -r`) is supported by the `librealsense-dkms` package [here](https://github.com/IntelRealSense/librealsense/blob/master/doc/distribution_linux.md#using-pre-build-packages).
+
+If not, please follow the following section on downgrading your kernel **BEFORE** installing `librealsense`.
+
 Please install `librealsense` from distribution following [`/computer-vision/intel-realsense.md`](https://iqr.cs.yale.edu/docs/computer-vision/intel-realsense.html). Note the manual installation step required for NUCs only.
+
+## Kernel Downgrade
+
+1. Install Mainline
+   > ```sh
+   > sudo apt-add-repository -y ppa:cappelikan/ppa
+   >
+   > sudo apt update
+   >
+   > sudo apt install mainline
+   > ```
+2. Install the downgraded kernel via Mainline
+3. Reboot and hold `Esc` to access the GRUB menu
+
+   Hint: If you held `Esc` for too long (which is very likely), you will enter the GRUB prompt instead. Execute `normal`, then tap `Esc` until the menu shows up
+
+4. Boot from the downgraded kernel in the Advanced Ubuntu Boot Options
+5. Uninstall any newer kernels from Mainline so that Ubuntu boots to the downgraded kernel by default.
+
+   Hint: You may need to uninstall some `generic-hwe` image/headers packages before this step. If this is the case, use
+
+   > ```sh
+   > dpkg --list | grep linux-image # to find the exact package name of linux-image-xxx
+   > sudo apt-get purge linux-image-xxx
+   > ```
 
 ## Networking
 

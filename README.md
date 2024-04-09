@@ -30,6 +30,7 @@ The lab has 6 edge camera systems, with the following specifications:
   - Storage: Sabrent 500GB Rocket NVMe SSD
   - RAM: 16GB 3200MHz DDR4 SODIMM 1.2V
 - **OS: Ubuntu 22.04**
+- **Kernel: 6.2**
 
 Please see [`/computer-vision/intel-nucs.md`](https://iqr.cs.yale.edu/docs/computer-vision/intel-nucs.html) for setup details.
 
