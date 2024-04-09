@@ -8,8 +8,6 @@ You can also use the GUI tool in `realsense-viewer` to update the firmware.
 
 If you are starting with a new camera, it is recommended to update the firmware to the latest version before beginning development.
 
-### As of the time of writing, the NUCs require installation from source with a backend bypass.
-
 ## Installation (Prerequisites)
 
 **Important**: Ensure that your kernel matches the versions supported by the `librealsense2-dkms` package if you are not installing from source. Please refer to the [official documentation](https://github.com/IntelRealSense/librealsense/blob/master/doc/distribution_linux.md) for more details.
@@ -41,6 +39,14 @@ In general, the following commands should suffice.
 >
 > sudo apt-get install librealsense2-dkms librealsense2-utils librealsense2-dev
 > ```
+
+**As of the time of writing, the NUCs require a manual modification to the `librealsense2-dkms` post-install script.**
+
+1. Open `/var/lib/dpkg/info/librealsense2-dkms.postinst` in your editor of choice as root.
+2. Delete the following line:
+   > ```
+   > sudo modprobe -r uvcvideo && sudo modprobe -r videodev
+   > ```
 
 ## Installing from Source (Alternative Method)
 
