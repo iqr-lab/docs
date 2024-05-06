@@ -10,7 +10,7 @@ Note: If using `Docker Desktop`, you might need to tune your Docker resource all
 
 ## Calibration Target
 
-We currently use a custom calibration target available [here]()
+We currently use a custom calibration target available [here](https://github.com/iqr-lab/pointcloud_stitching/blob/master/calibration/custom_target.pdf)
 
 Alternatively, you can generate the target PDF yourself by running inside the container:
 
