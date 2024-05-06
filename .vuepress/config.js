@@ -89,6 +89,7 @@ module.exports = {
         children: [
           "/computer-vision/intel-nuc",
           "/computer-vision/intel-realsense",
+          "/computer-vision/kalibr",
           "/computer-vision/pointcloud-stitching",
         ],
       },
