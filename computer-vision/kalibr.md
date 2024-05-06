@@ -6,7 +6,7 @@ This document covers the setup of [Kalibr](https://github.com/ethz-asl/kalibr) f
 
 Please follow the `Docker` image instructions [here](https://github.com/ethz-asl/kalibr/wiki/installation).
 
-Note: If using `Docker Desktop`, you might need to tune your Docker resource allocation for the image to build properly. A tested, working configuration is 10 CPU core limit and 10GB RAM limit. You also need to add `/tmp/.X11-unix` as a virtual file share under Settings->Resources->File Sharing.
+Note: If using Docker Desktop, you might need to tune your Docker resource allocation for the image to build properly. A tested, working configuration is 10 CPU core limit and 10GB RAM limit. You also need to add `/tmp/.X11-unix` as a virtual file share under Settings->Resources->File Sharing.
 
 ## Calibration Target
 
