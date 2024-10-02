@@ -47,6 +47,7 @@ In general, the following commands should suffice.
    > ```
    > sudo modprobe -r uvcvideo && sudo modprobe -r videodev
    > ```
+3. Also delete the same line from `/var/lib/dpkg/info/librealsense2-dkms.postrm` for version upgrades
 
 ## Installing from Source (Alternative Method)
 
