@@ -9,15 +9,17 @@
     "build": "vuepress build"
   },
   "license": "MIT",
-  "devDependencies": {},
   "dependencies": {
-    "@vuepress/plugin-back-to-top": "^1.9.10",
-    "@vuepress/plugin-medium-zoom": "^1.9.10",
+    "@vuepress/bundler-vite": "^2.0.0-rc.18",
+    "@vuepress/plugin-back-to-top": "^2.0.0-rc.57",
+    "@vuepress/plugin-search": "^2.0.0-rc.55",
+    "@vuepress/theme-default": "^2.0.0-rc.58",
     "markdown-it-multimd-table": "^4.2.3",
-    "markdown-link-check": "^3.11.2",
-    "prettier": "^3.0.3",
-    "vuepress": "^1.9.10",
-    "vuepress-plugin-fulltext-search": "^2.2.1",
-    "vuepress-theme-succinct": "^1.7.2"
+    "markdown-link-check": "^3.12.2",
+    "prettier": "^3.3.3",
+    "sass-embedded": "^1.80.4",
+    "typescript": "^5.6.3",
+    "vue": "^3.5.12",
+    "vuepress": "^2.0.0-rc.18"
   }
 }
