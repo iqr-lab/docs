@@ -96,10 +96,7 @@ There are variety of reasons for this choice over AnyDesk but the following are 
    Hint: It is usually set to the `lab` password but capatalized
 
 3. [Disable Wayland login](https://rustdesk.com/docs/en/client/linux/#login-screen)
-4. Open Settings -> Display
-5. Set the display scheme to Mirror Display
-
-   Hint: Setting the resolution now only impacts the virtual display (the RustDesk display) when headless
+4. Install [Virtual Display Linux](https://github.com/dianariyanto/virtual-display-linux)
 
 ## Environment setup
 
