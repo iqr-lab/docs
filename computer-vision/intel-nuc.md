@@ -7,7 +7,10 @@ This document covers all initial setup details for each NUC edge device in the d
 1. Disable Secure Boot in UEFI (F2 hotkey at POST)
 2. Enable Display Emulation under Advanced -> Video in UEFI
 3. An Internet Connection
-4. Ubuntu 22.04 installed with an admin user named `lab`
+
+## Ubuntu
+
+As of the time of writing, it is simplest to install [Ubuntu 22.04.3](https://old-releases.ubuntu.com/releases/22.04.3/) specifically. This is because it comes installed with kernel 6.2, which is by default supported by the Intel Realsense distribution builds. It is safest to avoid updating system components and software after initial OS installation, since `librealsense` is dependent on kernel modules and RustDesk uses virtual display emulation.
 
 ## Intel Realsense
 
@@ -96,7 +99,6 @@ There are variety of reasons for this choice over AnyDesk but the following are 
    Hint: It is usually set to the `lab` password but capatalized
 
 3. [Disable Wayland login](https://rustdesk.com/docs/en/client/linux/#login-screen)
-4. Install [Virtual Display Linux](https://github.com/dianariyanto/virtual-display-linux)
 
 ## Environment setup
 
