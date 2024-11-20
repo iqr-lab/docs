@@ -99,6 +99,8 @@ There are variety of reasons for this choice over AnyDesk but the following are 
    Hint: It is usually set to the `lab` password but capatalized
 
 3. [Disable Wayland login](https://rustdesk.com/docs/en/client/linux/#login-screen)
+4. _For Asus NUC only_: [Setup headless display option](https://github.com/rustdesk/rustdesk/wiki/Headless-Linux-Support)
+5. _For Asus NUC only_: [Setup virtual X display](https://github.com/rustdesk/rustdesk/pull/3902#issuecomment-1937900476)
 
 ## Environment setup
 
