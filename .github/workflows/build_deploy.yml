@@ -36,8 +36,18 @@ jobs:
           fetch-depth: '1'
           persist-credentials: false
 
-      - name: Copy pointcloud_stitching docs
-        run: cp -rf pointcloud_stitching/README.md computer-vision/pointcloud-stitching.md
+      - name: Checkout iqr-vision Repository
+        uses: actions/checkout@v4
+        with:
+          repository: iqr-lab/iqr-vision
+          path: iqr-vision
+          fetch-depth: '1'
+          persist-credentials: false
+
+      - name: Copy module docs
+        run: |
+          cp -rf pointcloud_stitching/README.md computer-vision/pointcloud-stitching.md
+          cp -rf iqr-vision/README.md computer-vision/iqr-vision.md
 
       - name: Install Dependencies
         run: bun install

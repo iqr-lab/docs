@@ -46,6 +46,7 @@ export default defineUserConfig({
           "intel-realsense",
           "kalibr",
           "pointcloud-stitching",
+          "iqr-vision",
         ],
       },
       {
