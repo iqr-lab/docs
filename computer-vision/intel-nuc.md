@@ -99,8 +99,6 @@ There are variety of reasons for this choice over AnyDesk but the following are 
    Hint: It is usually set to the `lab` password but capatalized
 
 3. [Disable Wayland login](https://rustdesk.com/docs/en/client/linux/#login-screen)
-4. _For Asus NUC only_: [Setup headless display option](https://github.com/rustdesk/rustdesk/wiki/Headless-Linux-Support)
-5. _For Asus NUC only_: [Setup virtual X display](https://github.com/rustdesk/rustdesk/pull/3902#issuecomment-1937900476)
 
 ## Environment setup
 
@@ -122,11 +120,7 @@ Please note that `python` does not and should not resolve (unless the virtual en
 
 #### Installation & Configuration
 
-We use `uv` over `pip` as the Python package manager of choice. Please install it by following the instructions [here](https://github.com/astral-sh/uv?tab=readme-ov-file#getting-started). When it comes to augmenting the shell startup file, please add the following line to `~/.config/fish/config.fish`:
-
-> ```bash
-> bass . "$HOME/.cargo/env"
-> ```
+We use `uv` over `pip` as the Python package manager of choice. Please install it by following the instructions [here](https://github.com/astral-sh/uv?tab=readme-ov-file#getting-started).
 
 Please restart your shell session for `uv` to be available.
 
