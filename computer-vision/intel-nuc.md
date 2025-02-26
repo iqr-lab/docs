@@ -99,6 +99,7 @@ There are variety of reasons for this choice over AnyDesk but the following are 
    Hint: It is usually set to the `lab` password but capatalized
 
 3. [Disable Wayland login](https://rustdesk.com/docs/en/client/linux/#login-screen)
+4. Make sure to purchase a dummy HDMI plug to enable remote desktop while headless
 
 ## Environment setup
 
