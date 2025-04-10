@@ -1,6 +1,8 @@
 import { viteBundler } from "@vuepress/bundler-vite";
 import { searchPlugin } from "@vuepress/plugin-search";
 import { defaultTheme } from "@vuepress/theme-default";
+import { markdownMathPlugin } from "@vuepress/plugin-markdown-math";
+
 import { defineUserConfig } from "vuepress";
 
 export default defineUserConfig({
@@ -34,7 +36,14 @@ export default defineUserConfig({
         link: "/",
         collapsable: false,
         sidebarDepth: 2,
-        children: [""],
+        children: [],
+      },
+      {
+        text: "Guides",
+        prefix: "/guides/",
+        collapsable: false,
+        sidebarDepth: 2,
+        children: ["connecting-to-iqrlan"],
       },
       {
         text: "Computer Vision",
@@ -72,5 +81,5 @@ export default defineUserConfig({
       },
     ],
   }),
-  plugins: [searchPlugin()],
+  plugins: [searchPlugin(), markdownMathPlugin()],
 });
