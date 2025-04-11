@@ -39,13 +39,6 @@ export default defineUserConfig({
         children: [],
       },
       {
-        text: "Guides",
-        prefix: "/guides/",
-        collapsable: false,
-        sidebarDepth: 2,
-        children: ["connecting-to-iqrlan"],
-      },
-      {
         text: "Computer Vision",
         prefix: "/computer-vision/",
         collapsable: false,
